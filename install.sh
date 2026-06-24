@@ -31,5 +31,8 @@ link "$REPO_DIR/zshrc" "$HOME/.zshrc"
 mkdir -p "$HOME/.config"
 link "$REPO_DIR/.config/starship.toml" "$HOME/.config/starship.toml"
 
+# .config/starship.zsh
+link "$REPO_DIR/.config/starship.zsh" "$HOME/.config/starship.zsh"
+
 echo ""
 echo "==> Done. Restart your shell or run: source ~/.zshrc"

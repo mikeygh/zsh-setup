@@ -7,7 +7,8 @@ Personal ZSH and Starship configuration.
 | File | Purpose |
 |------|---------|
 | `zshrc` | ZSH configuration (Oh-My-Zsh + plugins + Starship) |
-| `.config/starship.toml` | Starship prompt theme |
+| `.config/starship.toml` | Starship prompt theme (live config) |
+| `.config/starship.zsh` | Starship prompt theme (alternate version) |
 
 ## Quick start
 
@@ -21,6 +22,7 @@ This symlinks the config files into your home directory:
 
 - `~/zshrc` ← `./zshrc`
 - `~/.config/starship.toml` ← `./.config/starship.toml`
+- `~/.config/starship.zsh` ← `./.config/starship.zsh`
 
 ## Dependencies
 
